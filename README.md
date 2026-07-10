@@ -1,5 +1,13 @@
 # 🚗 Arduino Obstacle Avoiding Robot Car
 
+![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Embedded%20C-blue?style=for-the-badge)
+![IDE](https://img.shields.io/badge/IDE-Arduino_IDE-green?style=for-the-badge)
+![Sensor](https://img.shields.io/badge/Sensor-HC--SR04-orange?style=for-the-badge)
+![Motor Driver](https://img.shields.io/badge/Motor_Driver-L298N-red?style=for-the-badge)
+
+An autonomous obstacle avoiding robot car built using **Arduino Uno**, **HC-SR04 Ultrasonic Sensor**, **L298N Motor Driver**, and **Embedded C**.
+
 An autonomous obstacle avoiding robot car built using **Arduino Uno**, **HC-SR04 Ultrasonic Sensor**, **L298N Motor Driver**, and **Embedded C**.
 
 The robot continuously measures the distance to obstacles using an HC-SR04 ultrasonic sensor. When an object is detected within a predefined threshold (50 cm), it stops, attempts a right turn, checks the path again, and if still blocked, performs a left turn before continuing autonomous navigation.
