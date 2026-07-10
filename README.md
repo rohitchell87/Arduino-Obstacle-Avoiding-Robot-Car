@@ -12,24 +12,32 @@ The robot continuously measures the distance to obstacles using an HC-SR04 ultra
 
 ---
 
+## 📑 Table of Contents
+
+- [📸 Project Images](#-project-images)
+- [🎥 Demo Video](#-demo-video)
+- [✨ Features](#-features)
+- [🛠 Components Used](#-components-used)
+- [💻 Software Used](#-software-used)
+- [⚙️ Working Principle](#️-working-principle)
+- [🔌 Pin Connections](#-pin-connections)
+- [📁 Project Structure](#-project-structure)
+- [🔧 Circuit Diagram](#-circuit-diagram)
+- [🚀 Future Improvements](#-future-improvements)
+- [👨‍💻 Author](#-author)
+
+---
+---
+
 ## 📸 Project Images
 
-### Front View
+| Front View | Back View |
+|------------|-----------|
+| <img src="Images/Front_View.jpeg" width="450"/> | <img src="Images/Back_View.jpeg" width="450"/> |
 
-![Front View](Images/Front_View.jpeg)
-
-### Left View
-
-![Left View](Images/Left_View.jpeg)
-
-### Right View
-
-![Right View](Images/Right_View.jpeg)
-
-### Back View
-
-![Back View](Images/Back_View.jpeg)
-
+| Left View | Right View |
+|-----------|------------|
+| <img src="Images/Left_View.jpeg" width="450"/> | <img src="Images/Right_View.jpeg" width="450"/> |
 ---
 
 ## 🎥 Demo Video
@@ -40,16 +48,15 @@ The demo video is available here:
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-- Autonomous obstacle detection
-- Automatic obstacle avoidance
-- Four-wheel drive robot
-- Real-time distance measurement
-- Battery-powered operation
-- Built using Arduino Uno
-- Embedded C programming
-
+- 🚗 Autonomous obstacle avoidance
+- 📏 Real-time distance measurement using HC-SR04
+- 🔄 Automatic right and left turning logic
+- ⚡ PWM-based motor speed control
+- 🔋 Battery-powered mobile robot
+- 🧠 Embedded C programming using Arduino IDE
+- 🛞 Four-wheel robotic platform
 ---
 
 # 🛠 Components Used
@@ -108,6 +115,12 @@ The demo video is available here:
 | D13 | HC-SR04 Echo |
 
 ---
+
+## 🔌 Circuit Diagram
+
+The following diagram illustrates the hardware connections between the Arduino Uno, HC-SR04 ultrasonic sensor, L298N motor driver, battery pack, and DC motors.
+
+![Circuit Diagram](Circuit/circuit_diagram.png)
 
 # 📁 Project Structure
 
