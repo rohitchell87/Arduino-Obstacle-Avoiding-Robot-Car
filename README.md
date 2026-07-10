@@ -8,8 +8,6 @@
 
 An autonomous obstacle avoiding robot car built using **Arduino Uno**, **HC-SR04 Ultrasonic Sensor**, **L298N Motor Driver**, and **Embedded C**.
 
-An autonomous obstacle avoiding robot car built using **Arduino Uno**, **HC-SR04 Ultrasonic Sensor**, **L298N Motor Driver**, and **Embedded C**.
-
 The robot continuously measures the distance to obstacles using an HC-SR04 ultrasonic sensor. When an object is detected within a predefined threshold (50 cm), it stops, attempts a right turn, checks the path again, and if still blocked, performs a left turn before continuing autonomous navigation.
 
 ---
